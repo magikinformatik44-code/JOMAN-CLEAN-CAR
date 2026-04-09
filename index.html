@@ -1,187 +1,228 @@
 <!DOCTYPE html>
+
 <html lang="fr">
 <head>
+
 <meta charset="UTF-8">
+<title>Nettoyage voiture à domicile Nantes | Joman Clean Car</title>
+
+<meta name="description" content="Nettoyage voiture à domicile à Nantes et 44. Intérieur, extérieur, detailing professionnel. Réservation rapide.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Joman Clean Car | Detailing Nantes</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
-body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: #0a1929;
-    color: white;
-    scroll-behavior: smooth;
+
+/* ===== GLOBAL ===== */
+body{
+margin:0;
+font-family:Arial;
+background:#0a1929;
+color:white;
 }
 
-/* HERO /
-.hero {
-    text-align: center;
-    padding: 80px 20px;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
-    url('https://images.unsplash.com/photo-1607863680198-23d4b2565df0');
-    background-size: cover;
+/* ===== HEADER ===== */
+header{
+text-align:center;
+padding:120px 20px;
+background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),
+url('https://images.unsplash.com/photo-1607863680198-23d4b2565df0');
+background-size:cover;
 }
 
-.hero h1 {
-    color: gold;
-    font-size: 3em;
+header h1{
+font-size:50px;
+color:gold;
+margin:0;
 }
 
-.btn {
-    display: inline-block;
-    margin: 10px;
-    padding: 12px 25px;
-    background: gold;
-    color: black;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
+/* ===== NAV ===== */
+nav{
+position:sticky;
+top:0;
+background:rgba(0,0,0,0.8);
+text-align:center;
+padding:10px;
+z-index:1000;
 }
 
-/ SECTIONS /
-.container {
-    max-width: 1100px;
-    margin: auto;
-    padding: 40px 20px;
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
 }
 
-h2 {
-    color: gold;
+nav a:hover{color:gold;}
+
+/* ===== SECTION ===== */
+section{
+max-width:1100px;
+margin:50px auto;
+padding:30px;
+background:rgba(0,0,0,0.6);
+border-radius:12px;
 }
 
-/ CARDS /
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    gap: 20px;
+h2{
+text-align:center;
+color:gold;
 }
 
-.card {
-    background: #132c44;
-    padding: 20px;
-    border-radius: 10px;
-    transition: 0.3s;
+/* ===== SERVICES ===== */
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
 }
 
-.card:hover {
-    transform: translateY(-8px);
+.card{
+background:#132c44;
+padding:20px;
+border-radius:10px;
 }
 
-.price {
-    color: gold;
-    font-size: 1.4em;
+.price{
+color:gold;
+font-size:20px;
 }
 
-/ AVANT APRES /
-.gallery img {
-    width: 100%;
-    border-radius: 10px;
+/* ===== BUTTON ===== */
+.btn{
+display:inline-block;
+margin-top:15px;
+padding:12px 25px;
+background:gold;
+color:black;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
 }
 
-/ AVIS /
-.review {
-    background: #132c44;
-    padding: 15px;
-    border-radius: 10px;
+/* ===== AVIS ===== */
+.review{
+background:#132c44;
+padding:15px;
+border-radius:10px;
 }
 
-/ WHATSAPP FLOAT /
-.whatsapp {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #25D366;
-    color: white;
-    padding: 15px;
-    border-radius: 50%;
-    font-size: 20px;
-    text-decoration: none;
+/* ===== FOOTER ===== */
+footer{
+text-align:center;
+padding:20px;
+background:#050f18;
+margin-top:40px;
 }
 
-/ FOOTER */
-footer {
-    background: #050f18;
-    text-align: center;
-    padding: 20px;
+/* ===== WHATSAPP FLOAT ===== */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:50%;
+text-decoration:none;
+font-size:22px;
 }
+
 </style>
 
 </head>
 
 <body>
 
-<!-- HERO -->
-<section class="hero">
+<header>
 <h1>Joman Clean Car</h1>
-<p>Detailing à domicile à Nantes & 44</p>
+<p>Detailing à domicile - Nantes & 44</p>
 <p>Le soin professionnel pour votre véhicule sans bouger de chez vous</p>
 
-<a href="tel:0745222624" class="btn">:telephone_receiver: Appeler</a>
-<a href="https://wa.me/33745222624" class="btn">:speech_balloon: WhatsApp</a>
+<a href="tel:0745222624" class="btn">📞 Appeler</a> <a href="https://wa.me/33745222624" class="btn">💬 WhatsApp</a>
+
+</header>
+
+<nav>
+<a href="#services">Services</a>
+<a href="#prix">Tarifs</a>
+<a href="#avis">Avis</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="services">
+<h2>🚗 Nos services</h2>
+
+<div class="services">
+<div class="card">💺 Nettoyage intérieur complet</div>
+<div class="card">🚿 Nettoyage extérieur</div>
+<div class="card">✨ Rénovation & protection</div>
+<div class="card">🏠 Intervention à domicile</div>
+</div>
+
 </section>
 
-<!-- SERVICES -->
-<div class="container">
-<h2>:seat: Intérieur</h2>
-<div class="grid">
-<div class="card">Bronze - <span class="price">40€</span><br>Aspiration<br>Plastiques<br>Parfum</div>
-<div class="card">Gold - <span class="price">60€</span><br>+ Vitres & Coffre<br>Shampoing</div>
-<div class="card">Platinum - <span class="price">80€</span><br>+ Vapeur<br>Désinfection</div>
-</div>
+<section id="prix">
+<h2>💰 Tarifs</h2>
 
-<h2>:car: Extérieur</h2>
-<div class="grid">
-<div class="card">Standard - <span class="price">40€</span><br>Jantes<br>Shampoing</div>
-<div class="card">Premium - <span class="price">60€</span><br>Cire<br>Brillant pneus</div>
-</div>
+<div class="services">
 
-<h2>:gear: Options</h2>
 <div class="card">
-Lavage moteur : 30€<br>
-Rénovation phares : 40€<br>
-Très sale : +10€<br>
-Déplacement : 0,50€/km
-</div>
-</div>
-
-<!-- AVANT APRES -->
-<div class="container">
-<h2>:camera_with_flash: Avant / Après</h2>
-<div class="grid gallery">
-<img src="https://images.unsplash.com/photo-1610641818989-c2051b5e2cfd">
-<img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537">
-</div>
+<h3>Intérieur</h3>
+Bronze - <span class="price">40€</span><br>
+Gold - <span class="price">60€</span><br>
+Platinum - <span class="price">80€</span>
 </div>
 
-<!-- AVIS -->
-<div class="container">
-<h2>:star: Avis clients</h2>
-<div class="grid">
-<div class="review">:star::star::star::star::star:<br>Service impeccable !</div>
-<div class="review">:star::star::star::star::star:<br>Voiture comme neuve :fire:</div>
-<div class="review">:star::star::star::star::star:<br>Très pro et rapide</div>
-</div>
+<div class="card">
+<h3>Extérieur</h3>
+Standard - <span class="price">40€</span><br>
+Premium - <span class="price">60€</span>
 </div>
 
-<!-- MAP -->
-<div class="container">
-<h2>:round_pushpin: Zone d’intervention</h2>
-<iframe 
-width="100%" height="300" style="border:0"
-src="https://maps.google.com/maps?q=Nantes&t=&z=11&ie=UTF8&iwloc=&output=embed">
-</iframe>
+<div class="card">
+<h3>Options</h3>
+Lavage moteur 30€<br>
+Phares 40€<br>
+Très sale +10€
 </div>
 
-<!-- CONTACT -->
-<div class="container" style="text-align:center;">
-<h2>:telephone_receiver: Réserver</h2>
-<p><strong>07 45 22 26 24</strong></p>
+</div>
+
+</section>
+
+<section id="avis">
+<h2>⭐ Avis clients</h2>
+
+<div class="services">
+<div class="review">⭐⭐⭐⭐⭐<br>Voiture comme neuve !</div>
+<div class="review">⭐⭐⭐⭐⭐<br>Super service 🔥</div>
+<div class="review">⭐⭐⭐⭐⭐<br>Très professionnel</div>
+</div>
+
+</section>
+
+<section id="contact">
+<h2>📞 Contact</h2>
+
+<p style="text-align:center;">
+<strong>07 45 22 26 24</strong>
+</p>
+
+<div style="text-align:center;">
 <a href="tel:0745222624" class="btn">Appeler</a>
 <a href="https://wa.me/33745222624" class="btn">WhatsApp</a>
 </div>
 
-<a href="https://wa.me/33745222624" class="whatsapp">:speech_balloon:</a>
+<br>
+
+<iframe 
+src="https://maps.google.com/maps?q=Nantes&t=&z=11&ie=UTF8&iwloc=&output=embed"
+width="100%" height="300" style="border:0;border-radius:10px;">
+</iframe>
+
+</section>
+
+<a href="https://wa.me/33745222624" class="whatsapp">💬</a>
 
 <footer>
 © 2026 Joman Clean Car - Nantes
